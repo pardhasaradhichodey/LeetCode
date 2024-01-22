@@ -1,5 +1,5 @@
 class Solution:
-    def countOfPairs(self, n: int, x: int, y: int) -> List[int]:
+    def countOfPairs(self, n: int, x: int, y: int) :
         def min_distance(house1, house2, x, y):
             print('Entered',house1, house2)
             direct_distance = abs(house1 - house2)
